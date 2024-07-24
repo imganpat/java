@@ -14,9 +14,11 @@ public class prime {
             System.out.println(number + " is a prime number");
         else
             System.out.println(number + " is not a prime number");
+
+        sc.close();
     }
-    
-    //function to check if a number is prime or not
+
+    // function to check if a number is prime or not
     public static boolean checkPrime(int n) {
         for (int i = 2; i <= n / 2; i++) {
             if (n % i == 0)

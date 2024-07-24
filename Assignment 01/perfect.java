@@ -14,6 +14,7 @@ public class perfect {
         for (int i = 2; i <= n; i++)
             isPerfect(i);
 
+        sc.close();
     }
 
     public static void isPerfect(int n) {

@@ -10,6 +10,7 @@ public class employee {
 
         System.out.println(reverse(employee));
 
+        sc.close();
     }
 
     public static String reverse(String string) {

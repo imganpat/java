@@ -16,5 +16,6 @@ public class vowel {
                 System.out.println(letter + " ");
         }
 
+        sc.close();
     }
 }
